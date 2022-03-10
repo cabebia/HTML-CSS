@@ -1,0 +1,66 @@
+body, html{
+    height: 100%;
+    font-family: "Lato", sans-serif;
+    font-size:26px;
+}
+/* DIVS THAT CONTAIN PHOTOS */
+div#bg-1, div#bg-2, div#bg-3{
+    background-position: center;
+    background-attachment: fixed;
+    position:relative;
+}
+div#bg-1{
+    background-image: url('../img/bg_1.jpg');
+    min-height: 100%;
+}
+div#bg-2{
+    background-image: url('../img/bg_2.jpg');
+    min-height: 400px;
+}
+div#bg-3{
+    background-image: url('../img/bg_3.jpg');
+    min-height: 400px;
+}
+
+/*---------END DIVS---------*/
+
+/*        TEXT IN DIVS      */
+
+.center-xy{
+    position:absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+}
+
+.center-xy .border{
+    padding: 20px;
+    background-color: rgba(39, 6, 6, 0.6);
+    color:aliceblue;
+    font-size:1.8vmax;
+    letter-spacing: 3px;
+}
+
+/*--------END TEXTS--------*/
+
+
+/*        SECTIONS         */
+
+section{
+    text-align: center;
+    padding:40px 20px;
+    font-size: 0.6em;
+    line-height: 1.8em;
+    letter-spacing: 0.2em;
+}
+
+section.bg-gray{
+    background-color: rgba(131, 127, 127, 0.61)
+}
+
+section.bg-black{
+    background-color: rgba(2, 0, 0, 0.87);
+    color:aliceblue
+}
+
+/*------END SECTIONS-----*/

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- NORMALIZE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <div id="bg-1">
+        <div class="center-xy">
+            <span class="border">THIS IS THE "PARALLAX" EFFECT</span>
+        </div>
+    </div>
+
+    <section class="bg-gray">
+        <h2>¿What means?</h2>
+        <p>Its means that we're gonna play with the property "background-attachment" (obviusly, talking in Css) to get this beautifull effect when we scroll down. I'm sure that this page will be an excelent option for English teachers to leave with their students (for errors in grammatical and semantic). I'm sorry, im learning.</p>
+    </section>
+
+    <div id="bg-2">
+        <div class="center-xy">
+            <span class="border">I'M ANOTHER FIXED IMAGE</span>
+        </div>
+    </div>
+
+    <section class="bg-black">
+        <h2>OMG... a problem!</h2>
+        <p>Well, i need to fill space for not use the famous "Lorem", so here i go. I catch a problem while making the css: when i create the second div, it's not working like i supposed, the whole box goes up and overlaps with the other div!! </p>
+    </section>
+
+    <div id="bg-3">
+        <div class="center-xy">
+            <span class="border">SO.. THE SOLUTION IS:</span>
+        </div>
+    </div>
+
+    <section class="bg-gray">
+        <h2>The propierty position, with his value: "relative"</h2>
+        <p>I'm not sure but i think that "position:absolute" in tags &lt;p&gt; makes it float and, to tell the browser that don't makeit by using the window, we need to tell the fathers (in our case, the divs) that their position must be relative. Then, the childrens will use it as reference.</p>
+    </section>
+
+</body>
+</html>
