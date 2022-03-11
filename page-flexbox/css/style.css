@@ -1,0 +1,167 @@
+/*              GENERAL             */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    font-size:24px;
+    font-family: 'Sansita Swashed', cursive;
+}
+h1, h2{
+    letter-spacing: 2px;
+}
+h2{
+    color:black;
+}
+p{
+    letter-spacing: 1.3px;
+}
+#section-images img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+/* ---------- END GENERAL ----------*/
+
+/*                HEADER            */
+
+header{
+    background-image: url('../img/lion_header.jpg');
+    background-position: -240px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header-div{
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+#header-div h1{
+    background-color: rgba(0,255,255,0.2);
+    color:rgba(255,255,240,0.6);
+    margin-top: 50px;
+    font-size:4vh;
+    padding:20px;
+}
+#header-div p{
+    margin-top:30px;
+    padding:40px;
+    background-color: rgba(0,255,255,0.2);
+    font-size:3vh;
+    color:rgba(255,255,240,0.6);
+}
+#header-div a{
+    margin-top:30px;
+}
+#header-div span{
+    padding:20px;
+    background-color: rgb(35, 141, 141);
+    color:rgba(255,255,240,0.6);
+}
+/* ---------- END HEADER ---------- */
+
+/*         SECTION PRINCIPAL        */
+
+#section-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 300px;
+    background-color: rgb(197, 197, 196,0.8);
+    color:azure;
+    padding:50px 20px;
+    text-align: center;
+}
+
+/* ---- END SECTION PRINCIPAL ---- */
+
+/*         SECTION IMAGES          */
+#section-images{
+    background-color: #333;
+}
+#section-images ul{
+    padding:20px 30px;
+}
+
+#section-images ul li{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    text-align: center;
+    background-color: white;
+    padding:20px 30px;
+    margin:0 !important;
+}
+.content h3{
+    padding-bottom:20px;
+}
+
+.content p{
+    line-height: 1.5em;
+}
+/* ----- END SECTION IMAGES ----- */
+
+/*             FOOTER             */
+
+footer{
+    width: 100%;
+}
+
+footer div{
+    padding:40px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+footer div#contact-me{
+    background-color: #2690d4;
+    color:#fff;
+}
+
+footer div#more-projects{
+    min-height: 250px;
+    background-color: #24292f;
+    color:#fff;
+    justify-content: space-around;
+}
+
+footer h3{
+    margin-bottom:20px;
+}
+
+footer ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:18px 0;
+}
+
+footer p{
+    font-size: 18px;
+    letter-spacing: 0;
+    flex-grow: 1;
+}
+
+footer span{
+    margin-right:10px;
+}
+
+
+/* -------    END FOOTER   ------ */
+@media only screen and (min-width:430px){
+    header{
+        background-position:0;
+        background-size:cover;
+    }
+}
